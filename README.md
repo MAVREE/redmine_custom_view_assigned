@@ -1,13 +1,13 @@
 # Redmine Custom View Assigned plugin
 
 This plugin for Redmine adds a custom view of the field assigned.
-More [project site](http://alexbocharov.github.io/redmine_custom_view_assigned/)
+Edited to make it work on Redmine 4.2.1 with some customizations added.
 
 ## Installation
 
 To install the Redmine Custom View Assigned plugin, execute the following commands from the root of your redmine directory, assuming that your RAILS_ENV enviroment variable is set to "production":
 
-    git clone git://github.com/alexbocharov/redmine_custom_view_assigned.git plugins/redmine_custom_view_assigned
+    git clone git://github.com/MAVREE/redmine_custom_view_assigned.git plugins/redmine_custom_view_assigned
 
 More information on installing Redmine plugins can be found here: [http://www.redmine.org/wiki/redmine/Plugins](http://www.redmine.org/wiki/redmine/Plugins "Redmine Plugins")
 
@@ -20,6 +20,17 @@ need to restart Redmine for the plugin to be available.
     Restart Redmine
 
 ## Changelog
+
+### Tested on Redmine 4.2.1
+
+    Redmine version 4.2.1.stable
+    Ruby version    2.6.6-p146 (2020-03-31) [x86_64-linux]
+    Rails version   5.2.5
+
+### v1.3.0
+* Fixed bugs which prevented usage of grouping modes
+* Renamed some settings field
+* Added two new settings, one to choose which calculation mode to use when filtering assignable users and one that simply adds a prefix to groups to differentiate them from users
 
 ### v1.2.0
 * For Redmine 4.0 or higher.

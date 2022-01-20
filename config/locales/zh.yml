@@ -1,10 +1,15 @@
 # Simplified Chinese strings go here for Rails i18n
 zh:
   label_custom_view_assigned: "自定义指派给视图"
-  label_custom_view_assigned_filtering_users: "支持在工作流中过滤用户"
+  label_custom_view_assigned_filtering_users: "激活可分配用户的过滤器"
   label_custom_view_assigned_group_by: "按分组"
   label_custom_view_assigned_no_group: "不按分组"
   label_custom_view_assigned_grouping_no_group: "不含分组"
   label_custom_view_assigned_grouping_by_group: "按分组"
   label_custom_view_assigned_grouping_by_role: "按角色"
   label_custom_view_assigned_current_user: "当前用户"
+  label_custom_view_assigned_differentiate_groups: "区分群体与用户"
+  label_custom_view_assigned_group_prefix: "集团"
+  label_custom_view_assigned_calculation_mode: "可分配用户的计算模式（基于工作流状态的改变）。"
+  label_custom_view_assigned_calculation_mode_old: "旧（从当前状态到其他状态）"
+  label_custom_view_assigned_calculation_mode_new: "新(从其他状态到当前状态)"

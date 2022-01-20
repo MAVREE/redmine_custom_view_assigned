@@ -1,9 +1,9 @@
 <select id="issue_assigned_to_id_grouped" style="display: none;">
   <option value=""/>
   <% groups.keys.sort.each do |group| %>
-      <optgroup label="<%= group %>">
+      <optgroup label="<%= h(group) %>">
         <% groups[group].each do |user| %>
-            <option value="<%= user[:id] %>"><%= user[:name] %></option>
+            <option value="<%= user[:id] %>"><%= h(user[:name]) %></option>
         <% end %>
       </optgroup>
   <% end %>

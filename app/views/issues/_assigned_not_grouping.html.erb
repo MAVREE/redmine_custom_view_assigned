@@ -2,7 +2,7 @@
   <option value=""/>
   <option value="<%= User.current.id %>"><< <%= l(:label_me) %> >></option>
   <% users.each do |user| %>
-      <option value="<%= user.id %>"><%= user.name %></option>
+      <option value="<%= user.id %>"><%= h(user.name) %></option>
   <% end %>
 </select>
 

@@ -5,11 +5,24 @@
   </p>
 
   <p>
+    <label><%= l(:label_custom_view_assigned_calculation_mode) %></label>
+    <%= select_tag 'settings[calculation_mode]',
+                   options_for_select([[l(:label_custom_view_assigned_calculation_mode_new), 'new'],
+                                       [l(:label_custom_view_assigned_calculation_mode_old), 'old']],
+                                      RedmineCustomViewAssigned.calculation_mode) %>
+  </p>
+
+  <p>
     <label><%= l(:label_custom_view_assigned_group_by) %></label>
     <%= select_tag 'settings[grouping_mode]',
                    options_for_select([[l(:label_custom_view_assigned_grouping_no_group), ''],
                                        [l(:label_custom_view_assigned_grouping_by_group), 'groups'],
                                        [l(:label_custom_view_assigned_grouping_by_role), 'roles']],
                                       RedmineCustomViewAssigned.grouping_mode) %>
+  </p>
+
+  <p>
+    <label><%= l(:label_custom_view_assigned_differentiate_groups) %></label>
+    <%= check_box_tag('settings[differentiate_groups]', true, RedmineCustomViewAssigned.differentiate_groups) %>
   </p>
 </div>

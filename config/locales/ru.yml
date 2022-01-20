@@ -1,10 +1,15 @@
 # Russian strings go here for Rails i18n
 ru:
   label_custom_view_assigned: "Пользовательский вид поля 'Назначена'"
-  label_custom_view_assigned_filtering_users: "Разрешить фильтровать пользователей с учетом настроек последовательности действий"
+  label_custom_view_assigned_filtering_users: "Активация фильтра для назначаемых пользователей"
   label_custom_view_assigned_group_by: "Группировать по"
   label_custom_view_assigned_no_group: "Без группы"
   label_custom_view_assigned_grouping_no_group: "Без группировки"
   label_custom_view_assigned_grouping_by_group: "По группе"
   label_custom_view_assigned_grouping_by_role: "По роли"
   label_custom_view_assigned_current_user: "Текущий пользователь"
+  label_custom_view_assigned_differentiate_groups: "Отличить группы от пользователей"
+  label_custom_view_assigned_group_prefix: "Группа"
+  label_custom_view_assigned_calculation_mode: "Режим расчета назначаемых пользователей (на основе изменения статуса рабочего процесса)"
+  label_custom_view_assigned_calculation_mode_old: "Old (от текущего статуса к другим статусам)"
+  label_custom_view_assigned_calculation_mode_new: "New (от других статусов к текущему статусу)"

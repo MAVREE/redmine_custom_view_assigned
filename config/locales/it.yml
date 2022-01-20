@@ -1,10 +1,15 @@
 # Italian strings go here for Rails i18n
 it:
   label_custom_view_assigned: "Visualizzazione personalizzata assegnato"
-  label_custom_view_assigned_filtering_users: "Permette di filtrare l'elenco di utenti per un flusso di lavoro"
+  label_custom_view_assigned_filtering_users: "Attiva il filtro per gli utenti assegnabili"
   label_custom_view_assigned_group_by: "Raggruppa per"
   label_custom_view_assigned_no_group: "Senza gruppo"
   label_custom_view_assigned_grouping_no_group: "Senza raggruppamento"
   label_custom_view_assigned_grouping_by_group: "Per gruppo"
   label_custom_view_assigned_grouping_by_role: "Per ruolo"
   label_custom_view_assigned_current_user: "Utente corrente"
+  label_custom_view_assigned_differentiate_groups: "Differenzia gruppi dagli utenti"
+  label_custom_view_assigned_group_prefix: "Gruppo"
+  label_custom_view_assigned_calculation_mode: "Modalità di calcolo degli utenti assegnabili (in base al cambiamento di stato del workflow)"
+  label_custom_view_assigned_calculation_mode_old: "Old (dallo stato attuale ad altri stati)"
+  label_custom_view_assigned_calculation_mode_new: "New (da altri stati allo stato attuale)"

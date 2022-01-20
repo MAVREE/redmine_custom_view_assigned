@@ -6,12 +6,13 @@ require File.join(File.dirname(__FILE__), 'lib/custom_view_assigned/hooks/views_
 
 Redmine::Plugin.register :redmine_custom_view_assigned do
   name        'Redmine Custom View Assigned plugin'
-  author      'Alexander Bocharov'
-  description 'This plugin for Redmine adds a custom view of the field assigned'
-  version     '1.1.0'
+  author      'Alexander Bocharov, edits by Maurizio Andres Baggio'
+  description 'This Redmine plugin adds a custom view for the "assignee" field'
+  version     '1.3.0'
   url         'http://alexbocharov.github.io/redmine_custom_view_assigned'
+  author_url  'https://github.com/MAVREE'
 
-  requires_redmine :version_or_higher => '4.0.0'
+  requires_redmine :version_or_higher => '4.1.1'
 
   settings :default => {
         'filtering_users' => true,
