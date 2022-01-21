@@ -13,3 +13,5 @@ tr:
   label_custom_view_assigned_calculation_mode: "Atanabilir kullanıcılar hesaplama modu (iş akışı durumu değişikliğine göre)"
   label_custom_view_assigned_calculation_mode_old: "Old (mevcut durumdan diğer durumlara)"
   label_custom_view_assigned_calculation_mode_new: "New (diğer durumlardan mevcut duruma)"
+  label_custom_view_assigned_filtering_enabled_projects: "Aşağıdaki projelerde filtrelemeyi etkinleştir (virgülle ayrılmış tanımlayıcılar)"
+  label_custom_view_assigned_grouping_enabled_projects: "Aşağıdaki projelerde gruplamayı etkinleştir (virgülle ayrılmış tanımlayıcılar)"

@@ -13,3 +13,5 @@ ru:
   label_custom_view_assigned_calculation_mode: "Режим расчета назначаемых пользователей (на основе изменения статуса рабочего процесса)"
   label_custom_view_assigned_calculation_mode_old: "Old (от текущего статуса к другим статусам)"
   label_custom_view_assigned_calculation_mode_new: "New (от других статусов к текущему статусу)"
+  label_custom_view_assigned_filtering_enabled_projects: "Включить фильтрацию в следующих проектах (идентификаторы через запятую)"
+  label_custom_view_assigned_grouping_enabled_projects: "Включить группировку в следующих проектах (идентификаторы через запятую)"

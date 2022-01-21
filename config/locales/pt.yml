@@ -13,3 +13,5 @@ pt:
   label_custom_view_assigned_calculation_mode: "Modo de cálculo de utilizadores atribuíveis (com base na alteração do estado do workflow)"
   label_custom_view_assigned_calculation_mode_old: "Old (do estatuto actual para outros estatutos)"
   label_custom_view_assigned_calculation_mode_new: "New (de outros estatutos para o estatuto actual)"
+  label_custom_view_assigned_filtering_enabled_projects: "Permitir a filtragem nos seguintes projectos (identificadores separados por vírgulas)"
+  label_custom_view_assigned_grouping_enabled_projects: "Permitir o agrupamento nos seguintes projectos (identificadores separados por vírgulas)"

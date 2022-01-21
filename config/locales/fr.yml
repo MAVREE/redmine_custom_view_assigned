@@ -13,3 +13,5 @@ fr:
   label_custom_view_assigned_calculation_mode: "Mode de calcul des utilisateurs assignables (basé sur le changement de statut du workflow)"
   label_custom_view_assigned_calculation_mode_old: "Old (du statut actuel aux autres statuts)"
   label_custom_view_assigned_calculation_mode_new: "New (des autres statuts au statut actuel)"
+  label_custom_view_assigned_filtering_enabled_projects: "Activer le filtrage dans les projets suivants (identifiants séparés par des virgules)"
+  label_custom_view_assigned_grouping_enabled_projects: "Activer le regroupement dans les projets suivants (identifiants séparés par des virgules)"

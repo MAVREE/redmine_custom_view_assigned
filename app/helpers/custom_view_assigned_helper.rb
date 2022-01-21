@@ -34,7 +34,8 @@ module CustomViewAssignedHelper
     author = User.find(issue.author_id)
     assigned_to = User.find(issue.assigned_to_id) if issue.assigned_to_id
 
-    users << author if author
+    # don't add the author regardless
+    # users << author if author
     users << assigned_to if assigned_to
 
     users.uniq.sort

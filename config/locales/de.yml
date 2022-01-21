@@ -13,3 +13,5 @@ de:
   label_custom_view_assigned_calculation_mode: "Berechnungsmodus für zuweisbare Benutzer (basierend auf der Änderung des Workflow-Status)"
   label_custom_view_assigned_calculation_mode_old: "Old (vom aktuellen Status zu anderen Status)"
   label_custom_view_assigned_calculation_mode_new: "New (von anderen Status zum aktuellen Status)"
+  label_custom_view_assigned_filtering_enabled_projects: "Filterung in den folgenden Projekten aktivieren (Bezeichner durch Komma getrennt)"
+  label_custom_view_assigned_grouping_enabled_projects: "Aktivieren Sie die Gruppierung in folgenden Projekten (Bezeichner durch Komma getrennt)"

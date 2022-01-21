@@ -13,3 +13,5 @@ es:
   label_custom_view_assigned_calculation_mode: "Modo de cálculo de usuarios asignables (basado en el cambio de estado del workflow)"
   label_custom_view_assigned_calculation_mode_old: "Old (de estado actual a otros estados)"
   label_custom_view_assigned_calculation_mode_new: "New (de otros estados al estado actual)"
+  label_custom_view_assigned_filtering_enabled_projects: "Habilitar el filtro en los siguientes proyectos (identificadores separados por comas)"
+  label_custom_view_assigned_grouping_enabled_projects: "Habilitar la agrupación en los siguientes proyectos (identificadores separados por comas)"

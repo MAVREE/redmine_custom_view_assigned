@@ -8,7 +8,7 @@ Redmine::Plugin.register :redmine_custom_view_assigned do
   name        'Redmine Custom View Assigned plugin'
   author      'Alexander Bocharov, edits by Maurizio Andres Baggio'
   description 'This Redmine plugin adds a custom view for the "assignee" field'
-  version     '1.3.0'
+  version     '1.4.0'
   url         'http://alexbocharov.github.io/redmine_custom_view_assigned'
   author_url  'https://github.com/MAVREE'
 

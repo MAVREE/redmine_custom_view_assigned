@@ -15,5 +15,13 @@ module RedmineCustomViewAssigned
     def differentiate_groups
       Setting.plugin_redmine_custom_view_assigned['differentiate_groups']
     end
+
+    def filtering_enabled_projects
+      Setting.plugin_redmine_custom_view_assigned['filtering_enabled_projects']
+    end
+
+    def grouping_enabled_projects
+      Setting.plugin_redmine_custom_view_assigned['grouping_enabled_projects']
+    end
   end
 end

@@ -13,3 +13,5 @@ zh:
   label_custom_view_assigned_calculation_mode: "可分配用户的计算模式（基于工作流状态的改变）。"
   label_custom_view_assigned_calculation_mode_old: "旧（从当前状态到其他状态）"
   label_custom_view_assigned_calculation_mode_new: "新(从其他状态到当前状态)"
+  label_custom_view_assigned_filtering_enabled_projects: "在以下项目中启用过滤功能（标识符以逗号分隔）。"
+  label_custom_view_assigned_grouping_enabled_projects: "在以下项目中启用分组（标识符由逗号分隔）。"

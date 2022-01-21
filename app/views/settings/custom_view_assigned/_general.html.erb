@@ -25,4 +25,14 @@
     <label><%= l(:label_custom_view_assigned_differentiate_groups) %></label>
     <%= check_box_tag('settings[differentiate_groups]', true, RedmineCustomViewAssigned.differentiate_groups) %>
   </p>
+
+  <p>
+    <label><%= l(:label_custom_view_assigned_filtering_enabled_projects) %></label>
+    <%= text_field_tag "settings[filtering_enabled_projects]", RedmineCustomViewAssigned.filtering_enabled_projects %>
+  </p>
+
+  <p>
+    <label><%= l(:label_custom_view_assigned_grouping_enabled_projects) %></label>
+    <%= text_field_tag "settings[grouping_enabled_projects]", RedmineCustomViewAssigned.grouping_enabled_projects %>
+  </p>
 </div>
