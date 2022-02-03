@@ -32,7 +32,7 @@ module CustomViewAssignedHelper
         m.roles.detect(&:assignable) && target_members.include?(m.principal.id) }.map(&:principal).sort
 
     author = User.find(issue.author_id)
-    assigned_to = User.find(issue.assigned_to_id) if issue.assigned_to_id
+    assigned_to = Principal.find_by_id(issue.assigned_to_id) if issue.assigned_to_id
 
     # don't add the author regardless
     # users << author if author
